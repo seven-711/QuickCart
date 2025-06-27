@@ -3,7 +3,7 @@ import dbConnect from "./db";
 import User from "../models/User";
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: "crochet-shop-next" });
+export const inngest = new Inngest({ id: "quick-cart-next" });
 
 //Inngest function to save user data to a database
 
