@@ -3,7 +3,8 @@ import { getAuth } from "@clerk/nextjs/server";
 import dbConnect from "../../../../config/db";
 import { NextResponse } from "next/server";
 import Product from "../../../../models/product";
-import { inngest } from "@/config/inngest";
+import { inngest } from "../../../../config/inngest";
+import User from "../../../../models/User";
 
 export async function POST(request){
     try {
