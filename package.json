@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,6 +11,8 @@
   "dependencies": {
     "@clerk/nextjs": "^6.23.1",
     "@supabase/supabase-js": "^2.50.2",
+    "axios": "^1.10.0",
+    "cloudinary": "^2.7.0",
     "inngest": "^3.39.2",
     "mongodb": "^6.17.0",
     "mongoose": "^8.16.1",
@@ -28,6 +30,7 @@
     "tailwindcss": "^3.4.1"
   },
   "overrides": {
-    "serialize-error-cjs": "0.2.0"
+    "serialize-error-cjs": "0.2.0",
+    "q": "1.5.1"
   }
 }
