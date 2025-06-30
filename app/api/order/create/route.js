@@ -33,7 +33,7 @@ export async function POST(request){
         })
 
         // Clear user cart
-        const user = await User.findById(userId)
+        const user = await User.findById(userId) 
         user.cartItems = {}
         await user.save()
 
